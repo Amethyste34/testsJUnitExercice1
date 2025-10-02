@@ -11,7 +11,7 @@ import org.junit.jupiter.api.DisplayName;
 @DisplayName("Tests de la classe Calculator")
 public class CalculatorTest {
 
-    private com.example.Calculator calculator;
+    private org.example.Calculator calculator;
 
     @BeforeAll
     public static void initAll() {
@@ -20,7 +20,7 @@ public class CalculatorTest {
 
     @BeforeEach
     public void setUp() {
-        calculator = new com.example.Calculator();
+        calculator = new org.example.Calculator();
         System.out.println("→ Initialisation du Calculator pour un nouveau test");
     }
 

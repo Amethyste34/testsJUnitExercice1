@@ -10,11 +10,11 @@ import org.junit.jupiter.params.provider.CsvSource;
 @DisplayName("Tests paramétrés de la classe Calculator")
 public class CalculatorParamTest {
 
-    private com.example.Calculator calculator;
+    private org.example.Calculator calculator;
 
     @BeforeEach
     public void setUp() {
-        calculator = new com.example.Calculator();
+        calculator = new org.example.Calculator();
     }
 
     // ========================================
